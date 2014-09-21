@@ -1,0 +1,23 @@
+{
+	"name": "opauth/resourceguru",
+	"description": "ResourceGuru strategy for Opauth",
+	"keywords": ["authentication","auth","facebook"],
+	"homepage": "http://opauth.org",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Wessel Louwris",
+			"email": "wessel@techtribe.nl",
+			"homepage": "http://www.techtribe.nl"
+		}
+	],
+	"require": {
+		"php": ">=5.2.0",
+		"opauth/opauth": ">=0.2.0"
+	},
+	"autoload": {
+		"psr-0": {
+			"": "."
+		}
+	}
+}
